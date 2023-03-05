@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz@1,6..72&display=swap");
+html {
+  height: 100%;
+}
+body {
+  background: whitesmoke;
+  padding: 1rem 5rem;
+  background: linear-gradient(50deg, #90bcf2, #fda5da);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  color: rgb(255, 223, 245);
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: "Newsreader", serif;
+}
+#input {
+  font-size: 18px;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background: aliceblue;
+}
+#search {
+  background: #328fff;
+  padding: 6px 20px;
+  color: aliceblue;
+  outline: none;
+  font-size: 17px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 5px 1fr;
+  column-gap: 15px;
+  align-items: center;
+  margin: 0 50px;
+  color: aliceblue;
+}
+
+.weather {
+  text-align: center;
+  color: aliceblue;
+}
+
+.forecast {
+  font-family: "VT323", monospace;
+  font-size: large;
+}
+
+#city {
+  font-size: 30px;
+}
+
+.weather img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(240, 248, 255, 0.4);
+}
+
+#temperature {
+  font-size: 50px;
+  margin: 0;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.temp-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+#clouds {
+  font-size: 20px;
+  background: rgba(237, 133, 183, 0.954);
+  padding: 2px 20px;
+  border-radius: 15px;
+}
+
+.next {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.next p,
+.next h3 {
+  margin: 3px 0;
+}
+
+.cast-header {
+  color: aliceblue;
+  background: #0073ff;
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.time,
+.date {
+  color: #328fff;
+  font-weight: 600;
+}
+
+.desc {
+  color: #0073ff;
+  text-transform: capitalize;
+}
+
+.divider1,
+.divider2 {
+  background: aliceblue;
+  height: 200px;
+  /* margin: 0 auto; */
+  border-radius: 5px;
+}
+
+.divider2 {
+  height: 5px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.forecastD {
+  margin: 20px 50px;
+  color: aliceblue;
+  font-family: "VT323", monospace;
+  font-size: large;
+}
+
+.weekF {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
